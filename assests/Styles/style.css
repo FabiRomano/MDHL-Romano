@@ -6,11 +6,20 @@
     
 header{ background-image: url(../imagenes/design1_image1.jpg);
 background-size: cover;
-background-repeat: no-repeat;
-height: 500px;
+background-position: 0 -100px;
+height: 400px;
 font-size: 1rem;
 font-family: cursive;
 
 }
 
 
+.logo
+{
+    width: 150px;
+    background: transparent;
+    position: absolute;
+    bottom:20%;
+    right: 70px;
+    border: solid 1px #000;
+}
