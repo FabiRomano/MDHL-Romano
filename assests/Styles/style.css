@@ -44,8 +44,6 @@ header {
   font-style: italic;
 }
 
-
-
 .logo {
   width: 150px;
   background: #000;
@@ -66,8 +64,7 @@ header {
   margin-top: 20px;
 }
 
-nav
-{
+nav {
   padding-bottom: 80px;
 }
 
@@ -83,7 +80,6 @@ a {
   height: 70px;
   margin: 80px;
   padding: 10px;
-  
 }
 
 a :hover {
@@ -95,7 +91,6 @@ main {
   right: 5px;
   display: contents;
 }
-
 
 p {
   margin: 50px;
@@ -121,5 +116,4 @@ h4 {
   border-radius: 2px;
   padding-left: 1rem;
   padding-right: 1rem;
-  
 }
