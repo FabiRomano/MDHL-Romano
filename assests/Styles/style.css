@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #f3ecec;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 
 .subtitulo
 {
-    background-color: #000;
+    background-color: rgb(63, 60, 60);
     position: absolute;
     margin-top: 380px;
     height: 4rem;
@@ -44,7 +44,6 @@ header {
   position: absolute;
   bottom: 20%;
   right: 70px;
-  border: solid 1px #000;
 }
 
 .orden{
@@ -52,32 +51,39 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 3rem;
+    margin-top: 20px;
 
 }
 
-nav a {
+a {
     display: block;
     text-decoration: none;
-    margin: 30px;
-    color: rgb(50, 22, 211);
+    margin: 50px;
+    color: rgb(40, 59, 228);
     font-size: 1.5rem;
 
 }
 
-nav a :hover
+a :hover
 {
-    color: rgb(44, 240, 44);
+    color: rgb(243, 140, 43);
 
 }
 
 main 
 {  
     position: absolute;
-    color: aqua;
     right: 5px;
     display: contents;
 }
 
 h4, p {
     margin: 20px;
+    font-style: italic;
+
+}
+
+h4
+{
+  font-size: 1.5rem;
 }
