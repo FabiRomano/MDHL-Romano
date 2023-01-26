@@ -53,6 +53,7 @@ header {
   bottom: 20%;
   right: 70px;
   border: solid 2px yellow;
+  border-style: dotted;
   border-radius: 50px;
   padding-bottom: 0.5rem;
 }
@@ -65,17 +66,24 @@ header {
   margin-top: 20px;
 }
 
+nav
+{
+  padding-bottom: 80px;
+}
+
 a {
   display: block;
   text-decoration: none;
   text-align: center;
   color: white;
-  font-size: 1.5rem;
-  border: solid 2px yellow;
+  font-size: 1.6rem;
+  border: solid 1px yellow;
+  border-style: dotted;
   border-radius: 20px;
   height: 70px;
-  margin: 70px;
+  margin: 80px;
   padding: 10px;
+  
 }
 
 a :hover {
@@ -95,10 +103,10 @@ p {
   font-size: 20px;
   color: white;
   box-shadow: -5px 10px 20px #c5c5c5, 10px -5px 20px #c5c5c5;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
   border-radius: 5px;
 }
 h4 {
