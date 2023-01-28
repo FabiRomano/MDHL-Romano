@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+  font-family: "Kalam", cursive;
 }
 
 body {
@@ -29,13 +26,15 @@ header {
   padding-right: 1rem;
   color: white;
   background-color: #000;
-  border: solid 2px yellow;
+  border: solid 1px yellow;
   border-radius: 10px;
+  box-shadow: 0 0 0 3px rgb(243, 243, 126);
 }
 
 .subtitulo {
   background-color: #000;
-  border: solid 2px yellow;
+  border: solid 1px yellow;
+  box-shadow: 0 0 0 2px rgb(243, 243, 126);
   position: absolute;
   margin-top: 380px;
   height: 4rem;
@@ -50,15 +49,14 @@ header {
   background: #000;
   position: absolute;
   bottom: 15%;
-  right: 70px;
+  right: 80px;
   border: solid 2px yellow;
   border-style: dotted;
   border-radius: 50px;
   padding-bottom: 0.5rem;
 }
 
-.navbar
-{
+.navbar {
   display: inline-block;
   position: absolute;
   margin: 20px;
@@ -66,53 +64,48 @@ header {
   padding-top: 10px;
 }
 
-
 nav a {
   margin: 10px;
   display: block;
   width: 200px;
   margin-top: 70px;
   padding: 10px;
-  
+}
+
+nav a:hover {
+  border: #000;
+  box-shadow: 0 0 0 2px rgb(243, 243, 126);
+
+  color: yellow;
+  transition: 1.5s;
+  transform: rotate(1turn);
 }
 
 a {
-  font-size: 20px;
   border: #000 solid 1px;
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   border: solid 1px yellow;
   border-radius: 20px;
   text-align: center;
   padding: 10px;
-  margin: 20px
-;
-
+  margin: 20px;
 }
-
-a :hover {
-  color: yellow;
-}
-
-
 
 main {
   display: inline-block;
   position: absolute;
   margin: 20px;
   left: 250px;
-  top: 80%;
+  top: 70%;
   font-size: 20px;
   padding: 30px;
 }
 
 h4 {
   color: white;
-  padding: 15px; 
-
-  /* box-shadow: -5px 10px 20px c5c5c5, 10px -5px 20px #c5c5c5; */
-
+  padding: 15px;
 }
 
 p {
@@ -121,20 +114,23 @@ p {
   padding: 15px;
   font-size: 15px;
   color: white;
-
 }
 
-#contac{
+#contac {
   margin: 10px;
 }
 
+#mail {
+  border: #000 solid 1px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  border: solid 1px yellow;
+  border-radius: 20px;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
+#mail :hover {
+  color: rgb(31, 216, 31);
+  transition: 1.5s;
+}
