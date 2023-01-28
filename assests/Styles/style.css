@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -13,7 +17,6 @@ header {
   background-size: cover;
   background-position: 0 -100px;
   height: 400px;
-  font-family: cursive;
 }
 
 .titulo {
@@ -24,7 +27,6 @@ header {
   padding-left: 1rem;
   padding-bottom: 1rem;
   padding-right: 1rem;
-  font-style: italic;
   color: white;
   background-color: #000;
   border: solid 2px yellow;
@@ -41,14 +43,13 @@ header {
   color: white;
   text-align: center;
   padding: 1rem;
-  font-style: italic;
 }
 
 .logo {
   width: 150px;
   background: #000;
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 70px;
   border: solid 2px yellow;
   border-style: dotted;
@@ -56,64 +57,84 @@ header {
   padding-bottom: 0.5rem;
 }
 
-.orden {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 3rem;
-  margin-top: 20px;
+.navbar
+{
+  display: inline-block;
+  position: absolute;
+  margin: 20px;
+  padding-block: 30px;
+  padding-top: 10px;
 }
 
-nav {
-  padding-bottom: 80px;
+
+nav a {
+  margin: 10px;
+  display: block;
+  width: 200px;
+  margin-top: 70px;
+  padding: 10px;
+  
 }
 
 a {
-  display: block;
+  font-size: 20px;
+  border: #000 solid 1px;
   text-decoration: none;
-  text-align: center;
   color: white;
-  font-size: 1.6rem;
+  font-size: 15px;
   border: solid 1px yellow;
-  border-style: dotted;
   border-radius: 20px;
-  height: 70px;
-  margin: 80px;
+  text-align: center;
   padding: 10px;
+  margin: 20px
+;
+
 }
 
 a :hover {
   color: yellow;
 }
 
+
+
 main {
+  display: inline-block;
   position: absolute;
-  right: 5px;
-  display: contents;
+  margin: 20px;
+  left: 250px;
+  top: 80%;
+  font-size: 20px;
+  padding: 30px;
+}
+
+h4 {
+  color: white;
+  padding: 15px; 
+
+  /* box-shadow: -5px 10px 20px c5c5c5, 10px -5px 20px #c5c5c5; */
+
 }
 
 p {
-  margin: 50px;
-  font-style: italic;
-  font-size: 20px;
+  position: relative;
+  left: 20px;
+  padding: 15px;
+  font-size: 15px;
   color: white;
-  box-shadow: -5px 10px 20px #c5c5c5, 10px -5px 20px #c5c5c5;
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 5px;
+
 }
-h4 {
-  margin: 50px;
-  font-style: italic;
-  font-size: 20px;
-  color: white;
-  font-size: 1.8rem;
-  color: white;
-  border: solid 1px yellow;
-  border-style: dashed;
-  border-radius: 2px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
+#contac{
+  margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
