@@ -15,22 +15,50 @@
   background-image: url(../imagenes/design1_image2.jpg);
   background-position: 0 -100px;
   height: 400px;
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
 }
 
-/* .titulo {
-  position: absolute;
+.titulo
+{
+  position: relative;
+  margin-left: 15px;
+  margin-top: 10px;
   font-size: 2.5rem;
   text-align: center;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
   color: white;
-  background-color: #000;
+  background-color: transparent;
   border: solid 1px yellow;
   border-radius: 10px;
-  box-shadow: 0 0 0 3px rgb(243, 243, 126);
-} */
+  padding: 1rem;
+}
+
+
+
+.container-nav
+{
+ position: absolute;
+ left:75%;
+ padding: 1rem;
+
+
+}
+
+a{
+  margin: 8px;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.logo
+{
+  position: relative;
+  top: 80%;
+  left: 40%;
+  width: 150px;  
+}
 
 /* .subtitulo {
   background-color: #000;
