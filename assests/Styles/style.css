@@ -17,7 +17,6 @@
   height: 400px;
   display: flex;
   align-items: flex-start;
-  /* justify-content: space-between; */
 }
 
 .titulo
@@ -41,16 +40,19 @@
  position: absolute;
  left:75%;
  padding: 1rem;
+ top: 10px;
 
 
 }
 
 a{
-  margin: 8px;
+  margin: 10px;
   font-size: 1.2rem;
-  color: black;
+  color: white;
   text-decoration: none;
 }
+
+
 
 .logo
 {
@@ -58,32 +60,51 @@ a{
   top: 80%;
   left: 40%;
   width: 150px;  
+  border: solid 3px yellow;
+  border-style: dotted;
+  border-radius: 50px;
 }
 
-/* .subtitulo {
+.imgGaleria
+{
+  position: relative;
+  width: 300px;
+  top: 15px;
+  left: 1rem;
+  border-radius: 30px;
+  border: solid 3px yellow;
+  border-style: dotted;
+}
+
+
+article, section
+{
+display: flex;
+}
+
+
+.subtitulo {
   background-color: #000;
   border: solid 1px yellow;
   box-shadow: 0 0 0 2px rgb(243, 243, 126);
-  position: absolute;
-  margin-top: 380px;
+  position: relative;
   height: 4rem;
   width: 100%;
   color: white;
   text-align: center;
-  padding: 1rem;
-} */
+  padding: 0.5rem;
+  /* display: inline-block; */
+  bottom: 180px;
+  left: 25%;
 
-/* .logo {
-  width: 150px;
-  background: #000;
-  position: absolute;
-  bottom: 15%;
-  right: 80px;
-  border: solid 2px yellow;
-  border-style: dotted;
-  border-radius: 50px;
-  padding-bottom: 0.5rem;
-} */
+}
+
+.listas
+{
+  
+}
+
+
 
 /* .navbar {
   display: inline-block;
