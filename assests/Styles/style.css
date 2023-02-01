@@ -5,18 +5,17 @@
   font-family: "Kalam", cursive;
 }
 
-body {
+/* body {
   background-color: #000;
-}
+} */
 
-header {
-  background-image: url(../imagenes/design1_image1.jpg);
-  background-size: cover;
+.container-flex {
+  background-image: url(../imagenes/design1_image2.jpg);
   background-position: 0 -100px;
   height: 400px;
 }
 
-.titulo {
+/* .titulo {
   position: absolute;
   font-size: 2.5rem;
   text-align: center;
@@ -29,9 +28,9 @@ header {
   border: solid 1px yellow;
   border-radius: 10px;
   box-shadow: 0 0 0 3px rgb(243, 243, 126);
-}
+} */
 
-.subtitulo {
+/* .subtitulo {
   background-color: #000;
   border: solid 1px yellow;
   box-shadow: 0 0 0 2px rgb(243, 243, 126);
@@ -42,9 +41,9 @@ header {
   color: white;
   text-align: center;
   padding: 1rem;
-}
+} */
 
-.logo {
+/* .logo {
   width: 150px;
   background: #000;
   position: absolute;
@@ -54,9 +53,9 @@ header {
   border-style: dotted;
   border-radius: 50px;
   padding-bottom: 0.5rem;
-}
+} */
 
-.navbar {
+/* .navbar {
   display: inline-block;
   position: absolute;
   margin: 20px;
@@ -133,4 +132,4 @@ p {
 #mail :hover {
   color: rgb(31, 216, 31);
   transition: 1.5s;
-}
+} */
