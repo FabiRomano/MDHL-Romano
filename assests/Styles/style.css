@@ -6,10 +6,12 @@
 }
 
 body {
-  background-color: rgb(121, 114, 114);
+  background-color: rgb(30, 166, 184);
 }
 
+
 .container-flex {
+
   background-image: url(../imagenes/design1_image2.jpg);
   background-position: 0 -100px;
   height: 400px;
@@ -57,7 +59,7 @@ body {
 .imgGaleria {
   position: relative;
   width: 300px;
-  top: 30px;
+  top: 100px;
   left: 1rem;
   border-radius: 30px;
   border: solid 3px yellow;
@@ -66,15 +68,14 @@ body {
 
 main {
   display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+  /* align-items: center; */
 }
 
-article,
+/* article,
 section {
   display: flex;
   padding-bottom: 3rem;
-}
+} */
 
 .subtitulo {
   position: absolute;
@@ -82,14 +83,30 @@ section {
   color: black;
   padding: 0.5rem;
   bottom: 140px;
-  left: 25%;
+  left: 45%;
 }
 
 .listas {
   position: absolute;
   margin: 10px;
+  margin-top: 70px;
   left: 25%;
   padding: 30px;
+}
+
+
+dt{
+  margin: 4px;
+  border: 4px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+dd{
+  text-indent: 2em;
+  margin: 2px;
+  border: 2px;
+  padding: 2px;
 }
 
 h4 {
@@ -101,8 +118,8 @@ h4 {
 .contac {
   position: relative;
   left: 50px;
-  margin: 10px;
-  top: 50px;
+  margin: 20px;
+  top: 80px;
 }
 
 #contacto {
@@ -115,4 +132,44 @@ a {
   position: relative;
   top: 6px;
   margin: 6px;
+}
+
+.flex-table
+{
+  flex-direction: column;
+}
+
+table
+{
+  position: relative;
+  top: 90px;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+  width: 100%;
+  background-color: aqua;
+  border: 2px solid rebeccapurple;
+}
+
+caption
+{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+th{
+  background-color: blueviolet;
+  border: 2px solid red;
+  height: 3px;
+}
+
+
+
+.dl-flex
+{
+position: relative;
+font-size: 20px;
+margin: 20px;
+top: 100px;
+padding-bottom: 15px;
 }
