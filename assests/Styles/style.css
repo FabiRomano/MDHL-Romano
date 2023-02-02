@@ -6,17 +6,17 @@
 }
 
 body {
-  background-color: rgb(30, 166, 184);
+  background-color: #000;
+  color:  aliceblue;
 }
 
-
 .container-flex {
-
-  background-image: url(../imagenes/design1_image2.jpg);
+  background-image: url(../imagenes/design1_image1.jpg);
   background-position: 0 -100px;
   height: 400px;
   display: flex;
   align-items: flex-start;
+  border-bottom: 10px solid rgb(530, 255, 0);
 }
 
 .titulo {
@@ -25,24 +25,33 @@ body {
   margin-top: 10px;
   font-size: 2.5rem;
   text-align: center;
-  color: white;
-  background-color: transparent;
-  border: solid 1px yellow;
+  color: rgba(209, 206, 206, 0.959);
+  background-color: rgba(0, 0, 0, 0.363);
+  opacity: 1.5;
+  border: solid 2px #000;
   border-radius: 10px;
   padding: 1rem;
 }
 
 .container-nav {
   position: absolute;
-  left: 60%;
-  padding: 1rem;
+  left: 55%;
+  padding: 1.5rem;
   top: 10px;
+}
+
+.container-nav>a{
+  width: 10px;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 20px;
+ background-color: rgba(0, 0, 0, 0.363);
 }
 
 .links {
   margin: 10px;
   font-size: 1rem;
-  color: white;
+  color: aliceblue;
   text-decoration: none;
 }
 
@@ -54,6 +63,7 @@ body {
   border: solid 3px yellow;
   border-style: dotted;
   border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.26);
 }
 
 .imgGaleria {
@@ -64,23 +74,16 @@ body {
   border-radius: 30px;
   border: solid 3px yellow;
   border-style: dotted;
+  opacity: 1.5;
 }
 
 main {
   display: flex;
-  /* align-items: center; */
 }
-
-/* article,
-section {
-  display: flex;
-  padding-bottom: 3rem;
-} */
 
 .subtitulo {
   position: absolute;
-
-  color: black;
+  color:  aliceblue;
   padding: 0.5rem;
   bottom: 140px;
   left: 45%;
@@ -92,17 +95,27 @@ section {
   margin-top: 70px;
   left: 25%;
   padding: 30px;
+
+}
+#listAbout{
+padding: 50px;
+bottom: 20px;
+
 }
 
+#fottList{
+  position: relative;
+  top: 150px;
+}
 
-dt{
+dt {
   margin: 4px;
   border: 4px;
   padding: 4px;
   font-weight: bold;
 }
 
-dd{
+dd {
   text-indent: 2em;
   margin: 2px;
   border: 2px;
@@ -110,7 +123,7 @@ dd{
 }
 
 h4 {
-  color: white;
+  color:  aliceblue;
   padding: 15px;
   display: inline-block;
 }
@@ -134,13 +147,11 @@ a {
   margin: 6px;
 }
 
-.flex-table
-{
+.flex-table {
   flex-direction: column;
 }
 
-table
-{
+table {
   position: relative;
   top: 90px;
   border-collapse: separate;
@@ -150,26 +161,54 @@ table
   border: 2px solid rebeccapurple;
 }
 
-caption
-{
+caption {
   font-size: 20px;
   font-weight: bold;
   margin: 10px;
 }
 
-th{
+th {
   background-color: blueviolet;
   border: 2px solid red;
   height: 3px;
 }
 
+.dl-flex {
+  position: relative;
+  font-size: 20px;
+  margin: 20px;
+  top: 100px;
+  padding-bottom: 15px;
+}
 
+.section-rules {
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  position: relative;
+  padding: 10px;
+}
 
-.dl-flex
-{
-position: relative;
-font-size: 20px;
-margin: 20px;
-top: 100px;
-padding-bottom: 15px;
+#subrules {
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #000;
+  color:  aliceblue;
+  height: 20rem;
+  width: 50rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer > p {
+  position: relative;
+  top: 200px;
+  padding: 20px;
+  border: 1px #000;
+  background-color: #000;
+  color: aliceblue;
 }
