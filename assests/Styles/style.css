@@ -17,7 +17,7 @@ body {
   height: 400px;
   display: flex;
   align-items: flex-start;
-  border-bottom: 10px solid rgb(530, 255, 0);
+  border-bottom: 10px solid rgb(184, 243, 21);
 }
 
 .container-flex:hover {
@@ -104,7 +104,7 @@ body {
   border: solid 3px yellow;
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   border-style: double;
-  opacity: 1.5;
+  opacity: 0.8;
 
 }
 
