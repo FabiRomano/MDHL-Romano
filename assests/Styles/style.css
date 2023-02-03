@@ -32,6 +32,7 @@ body {
   text-align: center;
   opacity: 0.8;
   border: 2px solid #000;
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   transition: border 2s;
   color: aliceblue;
   transform: color 2s;
@@ -44,6 +45,7 @@ body {
 .titulo:hover {
   color: #000;
   border: 2px solid yellow;
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   background-color: rgb(218, 218, 148);
 }
 .container-nav {
@@ -84,6 +86,7 @@ body {
   left: 40%;
   width: 150px;
   border: solid 3px yellow;
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   border-style: dotted;
   border-radius: 50px;
   background-color: rgba(0, 0, 0, 0.26);
@@ -96,7 +99,7 @@ body {
   left: 1rem;
   border-radius: 30px;
   border: solid 3px yellow;
-  box-shadow: 1px 8px 20px #c5c5c5, -1px -8px 20px #c5c5c5;
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   border-style: double;
   opacity: 1.5;
 
@@ -193,11 +196,17 @@ caption {
 
 th {
   background-color: rgba(0, 0, 0, 0.26);
-  opacity: 0.8;
   border: 2px solid rgb(158, 158, 70);
   border-radius: 3px;
-  height: 3px;
+  width: 20px;
+  color: aliceblue;
 }
+
+th:hover{
+  color: yellow
+}
+
+
 
 .dl-flex {
   position: relative;
@@ -218,10 +227,21 @@ th {
 #subrules {
   margin: 30px;
   padding: 30px;
+  background: #000;
+  border-radius: 20px;
   border: 1px solid #000;
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   color: aliceblue;
+  transition: color 5s;
   height: 20rem;
   width: 50rem;
+  font-size: 30px;
+  transition: font-size 3s;
+}
+
+#subrules:hover{
+   color: transparent;
+  font-size: 5px;
 }
 
 footer {
