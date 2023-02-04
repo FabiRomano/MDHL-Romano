@@ -34,8 +34,9 @@ body {
   border: 2px solid #000;
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   transition: border 2s;
-  color: aliceblue;
-  transform: color 2s;
+  -webkit-text-stroke: 1px red;
+  font-family: arial; color:#000;
+  text-shadow: 0 0 2px red;
   background-color: #000;
   transition: background-color 2s;
   border-radius: 10px;
@@ -44,49 +45,53 @@ body {
 
 .titulo:hover {
   color: #000;
-  border: 2px solid yellow;
+  border: 2px solid #000;
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   background-color: rgb(218, 218, 148);
 }
 .container-nav {
   position: absolute;
   left: 55%;
-  padding: 1.5rem;
+  padding: 1rem;
   top: 10px;
 }
 
 .container-nav > a {
   width: 10px;
   padding: 7px;
-  border: 2px solid #000;
-  border-radius: 20px;
+  border: 1px solid #000;
+  border-radius: 15px;
   background-color: #000;
   opacity: 0.8;
   transition: border 2s;
-  transition: color 2s;
   transition: background-color 2s;
+  
 }
 
 .container-nav > a:hover {
-  border: 2px solid yellow;
-  color: #000;
+  border: 2px solid #000;
   background-color: rgb(218, 218, 148);
+  box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
+
 }
 
 
 .links {
   margin: 10px;
   font-size: 1em;
-  color: aliceblue;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 0 0 2px red;
   text-decoration: none;
 }
+
+
 
 .logo {
   position: relative;
   top: 80%;
-  left: 45%;
+  left: 40%;
   width: 150px;
-  border: solid 3px yellow;
+  border: solid 2px #000;
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   border-style: dotted;
   border-radius: 40px;
@@ -112,13 +117,24 @@ main {
   display: flex;
 }
 
+#inicio{
+  margin-top: 3rem;
+}
+
 .subtitulo {
   position: absolute;
-  color: rgb(211, 21, 173);
   padding: 0.5rem;
   padding-bottom: 1.5%;
-  bottom: 140px;
-  left: 45%;
+  margin-top: 1rem;
+  left: 35%;
+  font-size: 2.5em;
+  -webkit-text-stroke: 1px red;
+  font-family: arial; color:#000;
+  text-shadow: 0 0 2px red;
+}
+
+#oculto{
+  display: none;
 }
 
 .listas {
@@ -128,6 +144,7 @@ main {
   left: 25%;
   padding: 30px;
 }
+
 #listAbout {
   padding: 50px;
   bottom: 20px;
@@ -139,9 +156,9 @@ main {
 }
 
 .recuadros{
+  margin-right: 3rem ;
   padding: 15px;
   border: 1px solid rgb(223, 217, 217);
-
 }
 
 
@@ -248,12 +265,15 @@ th:hover{
   height: 20rem;
   width: 50rem;
   font-size: 30px;
+  -webkit-text-stroke: 1px red;
+  font-family: arial; color:#cce65a;
+  text-shadow: 0 0 2px red;
   transition: font-size 3s;
 }
 
 #subrules:hover{
    color: transparent;
-  font-size: 5px;
+  font-size: 0px;
 }
 
 footer {
