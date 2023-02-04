@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
       href="assests/imagenes/Logo_Mighty_ducks-01.ico"
       type="image/x-icon"
-    >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
       rel="stylesheet"
-    >
-    <link rel="stylesheet" href="./assests/Styles/style.css" >
+    />
+    <link rel="stylesheet" href="./assests/Styles/style.css" />
 
-    <title> Formulario de registro.</title>
+    <title>Formulario de registro.</title>
   </head>
   <body>
     <header class="container-flex">
-        <h1 class="titulo"> Formulario de registro.</h1>
-  
-        <aside>
-          <nav class="container-nav">
-            <a class="links" href="index.html">Home</a>
-            <a class="links" href="about.html">about MDHL </a>
-            <a class="links" href="gameInformation.html">Game Information</a>
-            <a class="links" href="rules.html">Rules</a>
-            <a class="links" href="contact.html">Contact</a>
-            <a class="links" href="#">Registration</a>
-          </nav>
-        </aside>
-        <img
-          class="logo"
-          src="./assests/imagenes/Logo_Mighty_ducks-01.png"
-          alt="Logo"
-        >
-      </header>
+      <h1 class="titulo">Formulario de registro.</h1>
 
-      <form action="show_data.html" method="get">
-      <label for="nombre">Player's Firts Name</label>
-      <input type="text" name="nombre" id="nombre">
-      <button type="submit">Enviar</button>
+      <aside>
+        <nav class="container-nav">
+          <a class="links" href="index.html">Home</a>
+          <a class="links" href="about.html">about MDHL </a>
+          <a class="links" href="gameInformation.html">Game Information</a>
+          <a class="links" href="rules.html">Rules</a>
+          <a class="links" href="contact.html">Contact</a>
+          <a class="links" href="#">Registration</a>
+        </nav>
+      </aside>
+      <img
+        class="logo"
+        src="./assests/imagenes/Logo_Mighty_ducks-01.png"
+        alt="Logo"
+      />
+    </header>
 
+    <form action="show_data.html" method="get">
+      <fieldset>
+        <legend>personal information</legend>
+
+        <label for="FirtsName">Player's Firts Name</label>
+        <input type="text" name="FirtsName" id="FirtsName" />
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" />
+    </fieldset>
+    <fieldset>
+        <label for="StreetAddress">Street Address</label>
+        <input type="text" name="StreetAddress" id="StreetAddress" />
+
+    </fieldset>
+
+    <fieldset>
+        <label for="City">City</label>
+        <input type="text" name="City" id="City" />
+
+        <label for="ZipCode">Zip Code</label>
+        <input type="text" name="ZipCode" id="ZipCode" />
+    </fieldset>
+
+        <button type="submit">Enviar</button>
+   
     </form>
   </body>
+</html>
