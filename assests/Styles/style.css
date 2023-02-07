@@ -218,10 +218,10 @@ a {
 table {
   position: relative;
   top: 90px;
-  border-collapse: separate;
+  /* border-collapse: separate; */
   border-spacing: 20px 10px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.623);
+  /* background-color: rgba(0, 0, 0, 0.623); */
   opacity: 0.8;
   border: 2px solid yellow;
 }
@@ -232,12 +232,15 @@ caption {
   margin: 10px;
 }
 
-th {
-  background-color: rgba(0, 0, 0, 0.26);
+
+
+th,td{
+  /* background-color: rgba(0, 0, 0, 0.26); */
   border: 2px solid rgb(158, 158, 70);
   border-radius: 3px;
   width: 20px;
   color: aliceblue;
+  
 }
 
 th:hover{
@@ -305,4 +308,25 @@ form
 {
   display: flex;
   flex-direction: column;
+}
+
+
+
+
+.maps
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8%;
+  justify-content: space-evenly;
+}
+
+iframe
+{
+  width: 400px;
+  height: 300px;
+  margin: 10px 10px 25px;
+  border: 1rem solid #cce65a;
+  border-radius: 0px 20px;
+
 }
