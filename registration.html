@@ -42,25 +42,27 @@
 
     <form action="show_data.html" method="get">
       <fieldset>
+        <div class="form">
+     
         <div>
-        <h3>personal information</h3>
-
         <label for="FirtsName">Player's Firts Name</label>
         <input type="text" name="FirtsName" id="FirtsName" required />
 
         <label for="lastname">Last Name</label>
         <input type="text" name="lastname" id="lastname" required />
-    
+      </div>
+
         <label for="StreetAddress">Street Address</label>
         <input type="text" name="StreetAddress" id="StreetAddress" required />
-    
+    <div>
         <label for="City">City</label>
         <input type="text" name="City" id="City" required />
 
 
         <label for="ZipCode">Zip Code</label>
         <input type="text" name="ZipCode" id="ZipCode"  required />
-     
+      </div>
+      <div>
         <label for="Birth">Birth Date</label>
         <input type="date" name="Birth" id="Birth" required />
   
@@ -95,8 +97,11 @@
 
         <input type="radio" name="grade" id="5th" value="5th" />
         <label for="5th">5th</label>
-   
+      </div>
+
         <h3>which elementary school do you live near?</h3>
+
+        <div>
         <label for="School">Closest School:</label>
         <select name="School" id="School">
           <option value="">--select an option--</label>
@@ -121,34 +126,21 @@
         <input type="checkbox" name="Position" id="Defense" value="Defense" />
         <label for="Defense">Defense</label>
 
-        <input
-          type="checkbox"
-          name="Position"
-          id="GoalKeeper"
-          value="GoalKeeper"
-        />
+        <input type="checkbox"name="Position"id="GoalKeeper" value="GoalKeeper"/>
         <label for="GoalKeeper">GoalKeeper</label>
      
-
+      </div>
         <h3>Uniform Size</h3>
+
+        <div>
 
         <input type="radio" name="Uniform" id="Youth Smal" value="Youth Smal" />
         <label for="Youth Smal">Youth Smal</label>
 
-        <input
-          type="radio"
-          name="Uniform"
-          id="Youth Medium"
-          value="Youth Medium"
-        />
+        <input type="radio" name="Uniform"id="Youth Medium" value="Youth Medium"/>
         <label for="Youth Medium">Youth Medium</label>
 
-        <input
-          type="radio"
-          name="Uniform"
-          id="Youth Large"
-          value="Youth Large"
-        />
+        <input type="radio"name="Uniform"id="Youth Large"value="Youth Large"/>
         <label for="Youth Large">Youth Large</label>
 
         <input type="radio" name="Uniform" id="Small" value="Small" />
@@ -160,12 +152,7 @@
         <input type="radio" name="Uniform" id="Large" value="Large" />
         <label for="Large">Large</label>
 
-        <input
-          type="radio"
-          name="Uniform"
-          id="Extra-Large"
-          value="Extra-Large"
-        />
+        <input type="radio"  name="Uniform"id="Extra-Large"value="Extra-Large"/>
         <label for="Extra-Large">Extra-Large</label>
 
       </div>
@@ -191,8 +178,9 @@
             addition, by signing below, lalso acknowledge that I have read the
             cancellation policy and agree to its term.
           </p>
-
+        </div>
           <fieldset>
+            <div>
         <label for="Parent">Parent/Guardian Signature</label>
         <input type="text" name="Parent" id="Paren" required />
 
@@ -200,6 +188,7 @@
         <label for="Date">Date</label>
         <input type="date" name="Date" id="Date" required />
       </fieldset>
+    </div>
       </div>
       </fieldset>
       <button type="submit">send</button>
@@ -207,4 +196,11 @@
 
     </form>
   </body>
+
+  <footer>
+      
+    <p>Fabiola Romano | © Argentina programa 2023</p>
+    <p>Buenos Aires. Argentina</p>
+
+  </footer>
 </html>
