@@ -299,3 +299,10 @@ footer > p {
   background-color: #000;
   color: aliceblue;
 }
+
+
+form
+{
+  display: flex;
+  flex-direction: column;
+}
