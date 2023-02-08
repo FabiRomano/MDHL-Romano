@@ -3,13 +3,13 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Kalam", cursive;
+
 }
 
 body {
   background-color: #000;
   color: aliceblue;
-  background-image: url(../imagenes/hockey_1.jpg);
-  background-repeat: no-repeat;
+
 }
 
 .container-flex {
@@ -38,13 +38,13 @@ body {
   border: 2px solid #000;
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
   transition: border 2s;
-  -webkit-text-stroke: 1px red;
-  font-family: arial; color:#000;
-  text-shadow: 0 0 2px red;
   background-color: #000;
   transition: background-color 2s;
   border-radius: 10px;
   padding: 1rem;
+  -webkit-text-stroke: 1px red;
+  font-family: arial; color:#000;
+  color: yellow;
 }
 
 .titulo:hover {
@@ -74,7 +74,7 @@ body {
 
 .container-nav > a:hover {
   border: 2px solid #000;
-  background-color: rgb(218, 218, 148);
+  background-color: rgb(56, 56, 51);
   box-shadow: 1px 8px 20px #cce65a, -1px -8px 20px #cce65a;
 
 }
@@ -84,10 +84,15 @@ body {
   margin: 10px;
   font-size: 1em;
   -webkit-text-stroke: 1px red;
-  text-shadow: 0 0 2px red;
+  font-family: arial; color:#000;
+  color: yellow;
   text-decoration: none;
 }
 
+.links:hover{
+  -webkit-text-stroke: 1px yellow;
+  color: red;
+}
 
 
 .logo {
@@ -125,6 +130,7 @@ body {
 
 main {
   display: flex;
+  margin-bottom: 2%;
 }
 
 #inicio{
@@ -140,7 +146,7 @@ main {
   font-size: 2.5em;
   -webkit-text-stroke: 1px red;
   font-family: arial; color:#000;
-  text-shadow: 0 0 2px red;
+  color: yellow;
 }
 
 #oculto{
@@ -223,10 +229,8 @@ a {
 table {
   position: relative;
   top: 90px;
-  /* border-collapse: separate; */
   border-spacing: 20px 10px;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.623); */
   opacity: 0.8;
   border: 2px solid yellow;
 }
@@ -240,18 +244,14 @@ caption {
 
 
 th{
-  /* background-color: rgba(0, 0, 0, 0.26); */
   border: 2px solid rgb(158, 158, 70);
   border-radius: 3px;
   width: 20px;
   -webkit-text-stroke: 1px red;
   font-family: arial; 
-  
+  font-size: 25px;
 }
 
-/* th:hover{
-  color: yellow
-} */
 
 td{
   border: 2px solid rgb(158, 158, 70);
@@ -264,22 +264,18 @@ td{
     font-size: 25px;
 }
 
-/* td:hover{
-  color: yellow
-} */
+
 
 td>a{
-  -webkit-text-stroke: 1px red;
-  font-family: arial; color:#000;
-  color: yellow;
-    /* text-decoration: none; */
+  -webkit-text-stroke: 1px yellow;
+  color: red;
+    text-decoration: none;
  top: 1px;
 }
 
 td>a:hover{
-  -webkit-text-stroke: 1px yellow;
-  font-family: arial; color:#000;
-  color: red;
+  -webkit-text-stroke: 1px red;
+  color: yellow;
 }
 
 .dl-flex {
@@ -325,24 +321,20 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
+  
 }
 
 footer > p {
   position: relative;
-  top: 200px;
+  margin-top: 10%;
   padding: 20px;
   border: 1px #000;
   background-color: #000;
   color: aliceblue;
+
 }
 
 
-/* form
-{
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-} */
 
 fieldset{
  border: 1rem solid #cce65a;
@@ -368,8 +360,17 @@ div
 
 input{
   margin: 15px;
-  background: #cce65a;
+  /* background: #cce65a; */
   border-radius: 0px 15px;
+}
+
+.boton
+{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .maps
